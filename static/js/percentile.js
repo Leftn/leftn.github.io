@@ -25,7 +25,7 @@ function percentileOfScore(array, score){
                 i = 0;
             }
 
-            pct = (right + left + i)* 50.0/array.length;
+            pct = (right + left + i) * 50.0/array.length;
             return pct
         }
     } else {
