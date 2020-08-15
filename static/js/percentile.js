@@ -58,5 +58,5 @@ function countLTE(array, v) {
 }
 
 $("#userMMRInput").change(function(e){
-    console.log(e);
+    $("#userMMRValue").val(percentileOfScore(ratingData, e.target.value).toFixed());
 })
