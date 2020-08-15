@@ -7,7 +7,7 @@ $.getJSON("/static/json/data.json", function(data){
 });
 
 function percentileOfScore(array, score){
-    if (isNaN(x)) {
+    if (isNaN(score)) {
         return NaN;
     }
 
