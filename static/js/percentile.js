@@ -1,4 +1,4 @@
-val ratingData = [];
+var ratingData = [];
 
 $.getJSON("/static/json/data.json", function(data){
     ratingData = data;
