@@ -3,7 +3,7 @@ var ratingData = [];
 $.getJSON("/static/json/data.json", function(data){
     ratingData = data;
     $("#userMMRInput").attr("readonly", false);
-    $("#userMMRInput").val("Enter your rating.");
+    $("#userMMRInput").attr("placeholder", "Input your rating.");
 });
 
 function percentileOfScore(array, score){
@@ -11,7 +11,7 @@ function percentileOfScore(array, score){
         return NaN;
     }
 
-    if Array.isArray(array){
+    if (Array.isArray(array)){
         if (array.length === 0) {
             return 100.0
         } else {
