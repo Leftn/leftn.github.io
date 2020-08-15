@@ -1,3 +1,7 @@
+val ratingData = [];
+
 $.getJSON("/static/json/data.json", function(data){
-    console.log(data);
+    ratingData = data;
+    $("#userMMRInput").attr("readonly", false);
+    $("#userMMRInput").val("Enter your rating.");
 });
