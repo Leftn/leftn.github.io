@@ -56,3 +56,7 @@ function countLTE(array, v) {
 
     return count;
 }
+
+$("#userMMRInput").change(function(v){
+    console.log(v);
+})
