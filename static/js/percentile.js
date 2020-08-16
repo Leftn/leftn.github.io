@@ -43,7 +43,9 @@ function scoreOfPercentile(array, p) {
         return array[0];
     }
 
-    return array[Math.ceil(array.length * (p/100)) - 1];
+    let idx = Math.ceil(array.length * (p/100)) - 1;
+
+    return array[idx];
 }
 
 
