@@ -14,7 +14,7 @@ $("#inputClassFilter").change(function(e){
     if ((e.target.value >= 0) && (e.target.value <= 12)) {
         let class_data = []
         if (e.target.value > 0){
-            class_data = filterRatingData(ratingData, e.target.value)
+            class_data = filterRatingData(ratingData, e.target.value);
         } else {
             class_data = ratingData;
         }

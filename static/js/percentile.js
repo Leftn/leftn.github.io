@@ -74,5 +74,14 @@ function countLTE(array, v) {
 }
 
 $("#userMMRInput").change(function(e){
-    $("#userMMROutput").val(percentileOfScore(ratingData, e.target.value).toFixed(2) + "%");
+
+    let class_data = []
+    if (e.target.value > 0){
+        class_data = filterRatingData(ratingData, $("#inputClassFilter").val());
+    } else {
+        class_data = ratingData;
+    }
+    class_data = class_data.map(x => x[1]);
+
+    $("#userMMROutput").val(percentileOfScore(class_data, e.target.value).toFixed(2) + "%");
 })
