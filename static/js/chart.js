@@ -5,7 +5,8 @@ function loadChart() {
 }
 
 function drawChart() {
-    var data = google.visualization.arrayToDataTable(ratingData.unshift(["Class", "Rating"]));
+    ratingData.unshift(["Class", "Rating"]);
+    var data = google.visualization.arrayToDataTable(ratingData);
     var options = {
     }
     var chart = new google.visualization.Histogram(document.getElementById("chart_div"));

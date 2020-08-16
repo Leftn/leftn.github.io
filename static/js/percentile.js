@@ -3,6 +3,7 @@ var ratingData = [];
 $.getJSON("/static/json/data.json", function(data){
     ratingData = data;
     loadChart();
+
     $("#userMMRInput").attr("readonly", false);
     $("#userMMRInput").attr("placeholder", "Input your rating.");
 });
