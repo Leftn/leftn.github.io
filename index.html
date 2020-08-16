@@ -5,15 +5,33 @@
     <title>Raider.IO Histogram/Percentiles</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
     <div class="container">
         <h2>Raider.IO Histogram</h2>
-        <div id="chart_div" style="width: 900px; height: 500px;"></div>
+        <img id="chartDisplay" src="static/img/0.png">
         <h2>Find your Percentile</h2>
+        <div class="form-group col-md-4">
+            <label for="inputClassFilter">Class Filter</label>
+            <select id="inputClassFilter" class="form-control">
+                <option selected value="0">No Filter</option>
+                <option value="1">Warrior</option>
+                <option value="2">Paladin</option>
+                <option value="3">Hunter</option>
+                <option value="4">Rogue</option>
+                <option value="5">Priest</option>
+                <option value="6">Death Knight</option>
+                <option value="7">Shaman</option>
+                <option value="8">Mage</option>
+                <option value="9">Warlock</option>
+                <option value="10">Monk</option>
+                <option value="11">Druid</option>
+                <option value="12">Demon Hunter</option>
+            </select>
+        </div>
         <div class="input-group input-group-sm mb-2">
+
             <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-sm">Enter your rating</span>
             </div>
@@ -28,43 +46,43 @@
                     <th scope="col">Raider.IO Score</th>
                 </tr>
             </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>24</td>
-            </tr>
-            <tr>
-                <th scope="row">5</th>
-                <td>28</td>
-            </tr>
-            <tr>
-                <th scope="row">25</th>
-                <td>158</td>
-            </tr>
-            <tr>
-                <th scope="row">50</th>
-                <td>492</td>
-            </tr>
-            <tr>
-                <th scope="row">75</th>
-                <td>1184</td>
-            </tr>
-            <tr>
-                <th scope="row">90</th>
-                <td>1987</td>
-            </tr>
-            <tr>
-                <th scope="row">95</th>
-                <td>2308</td>
-            </tr>
-            <tr>
-                <th scope="row">99</th>
-                <td>3282</td>
-            </tr>
-            <tr>
-                <th scope="row">99.9</th>
-                <td>4661</td>
-            </tr>
+            <tbody id="percentileTable">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <th scope="row">25</th>
+                    <td>158</td>
+                </tr>
+                <tr>
+                    <th scope="row">50</th>
+                    <td>492</td>
+                </tr>
+                <tr>
+                    <th scope="row">75</th>
+                    <td>1184</td>
+                </tr>
+                <tr>
+                    <th scope="row">90</th>
+                    <td>1987</td>
+                </tr>
+                <tr>
+                    <th scope="row">95</th>
+                    <td>2308</td>
+                </tr>
+                <tr>
+                    <th scope="row">99</th>
+                    <td>3282</td>
+                </tr>
+                <tr>
+                    <th scope="row">99.9</th>
+                    <td>4661</td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -73,7 +91,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src="static/js/percentile.js"></script>
-<script src="static/js/chart.js"></script>
+<script src="static/js/filter.js"></script>
 </body>
 
 </html>
