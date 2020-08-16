@@ -58,7 +58,7 @@ function countLTE(array, v) {
     return count;
 }
 
-function filterRatingData(data, class){
+function filterRatingData(data, class_id){
     // Class: "All" or any of the class Ids
 
 }
