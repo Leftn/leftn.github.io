@@ -2,7 +2,6 @@ var ratingData = [];
 
 $.getJSON("/static/json/data.json", function(data){
     ratingData = data;
-    loadChart();
 
     $("#userMMRInput").attr("readonly", false);
     $("#userMMRInput").attr("placeholder", "Input your rating.");
@@ -35,20 +34,16 @@ function percentileOfScore(array, score){
     }
 }
 
-// Code retrieved from: https://gist.github.com/IceCreamYou/6ffa1b18c4c8f6aeaad2
-function scoreOfPercentile(arr, p) {
-    if (arr.length === 0) return 0;
-    if (typeof p !== 'number') throw new TypeError('p must be a number');
-    if (p <= 0) return arr[0];
-    if (p >= 1) return arr[arr.length - 1];
+function scoreOfPercentile(array, p) {
+    if (array.length === 0) {
+        return 0;
+    }
 
-    var index = (arr.length - 1) * p,
-        lower = Math.floor(index),
-        upper = lower + 1,
-        weight = index % 1;
+    if (p === 0) {
+        return array[0];
+    }
 
-    if (upper >= arr.length) return arr[lower];
-    return arr[lower] * (1 - weight) + arr[upper] * weight;
+    return array[Math.ceil(array.length * (p/100)) - 1];
 }
 
 
