@@ -5,12 +5,13 @@
     <title>Raider.IO Histogram/Percentiles</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
     <div class="container">
         <h2>Raider.IO Histogram</h2>
-        <img src="static/img/chart.png">
+        <div id="chart_div" style="width: 900px; height: 500px;"></div>
         <h2>Find your Percentile</h2>
         <div class="input-group input-group-sm mb-2">
             <div class="input-group-prepend">
@@ -72,6 +73,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src="static/js/percentile.js"></script>
+<script src="static/js/chart.js"></script>
 </body>
 
 </html>

@@ -2,6 +2,7 @@ var ratingData = [];
 
 $.getJSON("/static/json/data.json", function(data){
     ratingData = data;
+    loadChart();
     $("#userMMRInput").attr("readonly", false);
     $("#userMMRInput").attr("placeholder", "Input your rating.");
 });
@@ -55,6 +56,11 @@ function countLTE(array, v) {
     }
 
     return count;
+}
+
+function filterRatingData(data, class){
+    // Class: "All" or any of the class Ids
+
 }
 
 $("#userMMRInput").change(function(e){
