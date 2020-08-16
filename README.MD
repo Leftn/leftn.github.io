@@ -11,8 +11,7 @@ You can also input your own rating to find out which percentile you are at.
 
 ---
 
-The only addition planned for this is to automate generation of the index.html
-file when new data is collected.
+You can also filter the data by class
 
 ---
 
