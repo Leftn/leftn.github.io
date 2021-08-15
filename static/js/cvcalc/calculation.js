@@ -1,5 +1,5 @@
-var bloodCode = "Achilles";
-var weapon = "Bayonet";
+var bloodCode = "Queenslayer";
+var weapon = "Zweihander";
 var level = "1";
 var reinforcement = "0";
 
