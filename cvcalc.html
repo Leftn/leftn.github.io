@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175517394-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+	
+      // TODO: Create new google analytics site
+      //gtag('config', '');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+		<h2>Code Vein Damage Calculator</h2>
+		<div class="input-group mb-3">
+		<input id="levelInput" type="number" class="form-control" placeholder="Level" aria-label="Level" max="2000000" min="-2000000">
+		<select class="custom-select" id="bloodCodeSelect">
+			<option value="Achilles">Choose Blood Code...</option>
+			<option value="Achilles">Achilles</option>
+			<option value="Artemis">Artemis</option>
+			<option value="Asclepius">Asclepius</option>
+			<option value="Assassin">Assassin</option>
+			<option value="Astrea">Astrea</option>
+			<option value="Atlas">Atlas</option>
+			<option value="Berserker">Berserker</option>
+			<option value="Caster">Caster</option>
+			<option value="Dark Knight">Dark Knight</option>
+			<option value="Darkseeker">Darkseeker</option>
+			<option value="Demeter">Demeter</option>
+			<option value="Eos">Eos</option>
+			<option value="Fighter">Fighter</option>
+			<option value="Fionn">Fionn</option>
+			<option value="Hades">Hades</option>
+			<option value="Harbinger">Harbinger</option>
+			<option value="Harmonia">Harmonia</option>
+			<option value="Heimdall">Heimdall</option>
+			<option value="Hephaestus">Hephaestus</option>
+			<option value="Hermes">Hermes</option>
+			<option value="Hunter">Hunter</option>
+			<option value="Ishtar">Ishtar</option>
+			<option value="Isis">Isis</option>
+			<option value="Mercury">Mercury</option>
+			<option value="Orion">Orion</option>
+			<option value="Perseus">Perseus</option>
+			<option value="Pollux">Pollux</option>
+			<option value="Prometheus">Prometheus</option>
+			<option value="Queen">Queen</option>
+			<option value="Queen's Breath">Queen's Breath</option>
+			<option value="Queen's Claw">Queen's Claw</option>
+			<option value="Queen's Ribcage">Queen's Ribcage</option>
+			<option value="Queen's Throat">Queen's Throat</option>
+			<option value="Queenslayer">Queenslayer</option>				
+			<option value="Ranger">Ranger</option>
+			<option value="Scathach">Scathach</option>
+			<option value="Scout">Scout</option>
+			<option value="Surt">Surt</option>
+			<option value="Survivor">Survivor</option>
+			<option value="Vali">Vali</option>
+			<option value="Warrior">Warrior</option>
+			<option value="Ymir">Ymir</option>
+		</select>
+		<select class="custom-select" id="weaponSelect">
+			<option value="Bayonet">Choose Weapon...</option>
+			<option value="Bayonet">Bayonet</option>
+			<option value="Bloody Snow">Bloody Snow</option>
+			<option value="Brodiaea">Brodiaea</option>
+			<option value="Hellfire Hammer">Hellfire Hammer</option>
+			<option value="Queenslayer Bayonet">Queenslayer Bayonet</option>
+			<option value="Rubellite Piercer">Rubellite Piercer</option>
+			<option value="Fulmen Blade">Fulmen Blade</option>
+			<option value="Wrathful Balmung">Wrathful Balmung</option>
+			<option value="Arget Wolf Bayonet">Arget Wolf Bayonet</option>
+			<option value="Black Bayonet">Black Bayonet</option>
+			<option value="Lost Bayonet">Lost Bayonet</option>
+			<option value="Libertador">Libertador</option>
+			<option value="Sunset Bayonet">Sunset Bayonet</option>
+			<option value="Thunderbolt">Thunderbolt</option>
+			<option value="Argent Wolf Kin's Blade">Argent Wolf King's Blade</option>
+			<option value="Blanched Greatsword">Blanched Greatsword</option>
+			<option value="Argent Wolf Warhammer">Argent Wolf Warhammer</option>
+			<option value="Lost Heavy Axe">Lost Heavy Axe</option>
+			<option value="Huge Hammer">Huge Hammer</option>
+			<option value="Obliterator Axe">Obliterator Axe</option>
+			<option value="Black  Saber">Black  Saber</option>
+			<option value="Judgment Edge">Judgment Edge</option>
+			<option value="Juggernaut Sledgehammer">Juggernaut Sledgehammer</option>
+			<option value="Tyrant's Labrys">Tyrant's Labrys</option>
+			<option value="Argent Wolf Brand">Argent Wolf Brand</option>
+			<option value="Oni Bane">Oni Bane</option>
+			<option value="Blood Mist Halberd">Blood Mist Halberd</option>
+			<option value="Inferno Blade">Inferno Blade</option>
+			<option value="Snowdrift Shauru">Snowdrift Shauru</option>
+			<option value="Azure Greatsword">Azure Greatsword</option>
+			<option value="Enduring Crimson">Enduring Crimson</option>
+			<option value="Dammerung">Dammerung</option>
+			<option value="Machete">Machete</option>
+			<option value="Riot Breaker">Riot Breaker</option>
+			<option value="Queenslayer Greatsword">Queenslayer Greatsword</option>
+			<option value="Warped Blade">Warped Blade</option>
+			<option value="Heavy Axe">Heavy Axe</option>
+			<option value="Zweihander">Zweihander</option>
+			<option value="Burning Disaster">Burning Disaster</option>
+			<option value="Black Great Sword">Black Great Sword</option>
+			<option value="Burned Warhammer">Burned Warhammer</option>
+			<option value="Hammer of Thralldom">Hammer of Thralldom</option>
+			<option value="Queenslayer Hammer">Queenslayer Hammer</option>
+			<option value="Assassin's Sickle">Assassin's Sickle</option>
+			<option value="Blazing Claw">Blazing Claw</option>
+			<option value="Garnet Splitter">Garnet Splitter</option>
+			<option value="Hanemukuro">Hanemukuro</option>
+			<option value="Argent Wolf Blade">Argent Wolf Blade</option>
+			<option value="Crimson Longsword">Crimson Longsword</option>
+			<option value="Queenslayer Halberd">Queenslayer Halberd</option>
+			<option value="Cerulean Spear">Cerulean Spear</option>
+			<option value="Lost Bardiche">Lost Bardiche</option>
+			<option value="Sunset Sword">Sunset Sword</option>
+			<option value="Executioner">Executioner</option>
+			<option value="Nagimukuro">Nagimukuro</option>
+			<option value="Iceblood">Iceblood</option>
+			<option value="Broadsword">Broadsword</option>
+			<option value="Hellfire Pipe">Hellfire Pipe</option>
+			<option value="Hoarfrost Pipe">Hoarfrost Pipe</option>
+			<option value="Pipe of Thralldom">Pipe of Thralldom</option>
+			<option value="Queenslayer Blade">Queenslayer Blade</option>
+			<option value="Thunderbolt Pipe">Thunderbolt Pipe</option>
+			<option value="Bardiche">Bardiche</option>
+			<option value="Lost Broadsword">Lost Broadsword</option>
+			<option value="Lost Zweihander">Lost Zweihander</option>
+			<option value="Sunset Great Sword">Sunset Great Sword</option>
+			<option value="Sunset Hammer">Sunset Hammer</option>
+			<option value="Impulse Anchor">Impulse Anchor</option>
+			<option value="Black Halberd">Black Halberd</option>
+			<option value="Impaler">Impaler</option>
+			<option value="Sunset Halberd">Sunset Halberd</option>
+			<option value="Lightning Brionac">Lightning Brionac</option>
+			<option value="Argend Wolf Poleaxe">Argend Wolf Poleaxe</option>
+		</select>
+		</div>
+		<div class="input-group mb-3">
+			<label for="weaponReinforcement">
+				Weapon Reinforcement
+				<input class="form-control" id="reinforcementFeedback" type="text" placeholder="+0" readonly>
+			</label>
+			<input type="range" class="custom-range" min="0" max="10" id="weaponReinforcement" value="0">
+		</div>
+    </div>
+	<div class="container bg-secondary text-light p-3">
+		<h4>HP:</h4> <label id="hpOutput">more than u</label>
+		<h4>Physical Damage: </h4> <label id="damageOutput">69420</label>
+	</div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="static/js/cvcalc/calculation.js"></script>
+	<script src="static/js/cvcalc/cvinput.js"></script>
+</body>
+
+</html>

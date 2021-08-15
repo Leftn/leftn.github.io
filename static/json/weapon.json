@@ -1,0 +1,659 @@
+{
+	"Bayonet": {
+		"base": "138",
+		"str": "-",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Bloody Snow": {
+		"base": "120",
+		"str": "-",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Brodiaea": {
+		"base": "150",
+		"str": "-",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Hellfire Hammer": {
+		"base": "215",
+		"str": "-",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Queenslayer Bayonet": {
+		"base": "130",
+		"str": "-",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Rubellite Piercer": {
+		"base": "125",
+		"str": "-",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Fulmen Blade": {
+		"base": "145",
+		"str": "-",
+		"dex": "A+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Wrathful Balmung": {
+		"base": "244",
+		"str": "-",
+		"dex": "A+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Arget Wolf Bayonet": {
+		"base": "174",
+		"str": "-",
+		"dex": "B",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Black Bayonet": {
+		"base": "163",
+		"str": "-",
+		"dex": "B+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Lost Bayonet": {
+		"base": "167",
+		"str": "-",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Libertador": {
+		"base": "183",
+		"str": "-",
+		"dex": "C+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Sunset Bayonet": {
+		"base": "153",
+		"str": "-",
+		"dex": "C+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Thunderbolt": {
+		"base": "170",
+		"str": "-",
+		"dex": "C+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Argent Wolf Kin's Blade": {
+		"base": "282",
+		"str": "A",
+		"dex": "-",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Blanched Greatsword": {
+		"base": "250",
+		"str": "A",
+		"dex": "-",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Argent Wolf Warhammer": {
+		"base": "204",
+		"str": "A",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Lost Heavy Axe": {
+		"base": "164",
+		"str": "A",
+		"dex": "C",
+		"blood": "35",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Huge Hammer": {
+		"base": "208",
+		"str": "A",
+		"dex": "D",
+		"blood": "40",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Obliterator Axe": {
+		"base": "200",
+		"str": "A",
+		"dex": "D",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Black  Saber": {
+		"base": "124",
+		"str": "A",
+		"dex": "D+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Judgment Edge": {
+		"base": "222",
+		"str": "A",
+		"dex": "D+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Juggernaut Sledgehammer": {
+		"base": "215",
+		"str": "A",
+		"dex": "D+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Tyrant's Labrys": {
+		"base": "180",
+		"str": "A",
+		"dex": "D+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Argent Wolf Brand": {
+		"base": "243",
+		"str": "A",
+		"dex": "E",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Oni Bane": {
+		"base": "248",
+		"str": "A",
+		"dex": "E",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Blood Mist Halberd": {
+		"base": "176",
+		"str": "A+",
+		"dex": "-",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Inferno Blade": {
+		"base": "125",
+		"str": "A+",
+		"dex": "-",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Snowdrift Shauru": {
+		"base": "176",
+		"str": "A+",
+		"dex": "-",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Azure Greatsword": {
+		"base": "286",
+		"str": "B",
+		"dex": "-",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Enduring Crimson": {
+		"base": "120",
+		"str": "B",
+		"dex": "B",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Dammerung": {
+		"base": "171",
+		"str": "B",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Machete": {
+		"base": "163",
+		"str": "B",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Riot Breaker": {
+		"base": "119",
+		"str": "B",
+		"dex": "C+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Queenslayer Greatsword": {
+		"base": "244",
+		"str": "B",
+		"dex": "D+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Warped Blade": {
+		"base": "206",
+		"str": "B",
+		"dex": "D+",
+		"blood": "50",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Heavy Axe": {
+		"base": "215",
+		"str": "B",
+		"dex": "E",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Zweihander": {
+		"base": "286",
+		"str": "B",
+		"dex": "E+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Burning Disaster": {
+		"base": "82",
+		"str": "B+",
+		"dex": "A",
+		"blood": "0",
+		"fire": "60",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Black Great Sword": {
+		"base": "227",
+		"str": "B+",
+		"dex": "D",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Burned Warhammer": {
+		"base": "192",
+		"str": "B+",
+		"dex": "D",
+		"blood": "0",
+		"fire": "50",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Hammer of Thralldom": {
+		"base": "62",
+		"str": "B+",
+		"dex": "D",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Queenslayer Hammer": {
+		"base": "238",
+		"str": "B+",
+		"dex": "D",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Assassin's Sickle": {
+		"base": "134",
+		"str": "C",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Blazing Claw": {
+		"base": "94",
+		"str": "C",
+		"dex": "A",
+		"blood": "0",
+		"fire": "50",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Garnet Splitter": {
+		"base": "151",
+		"str": "C",
+		"dex": "B+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Hanemukuro": {
+		"base": "125",
+		"str": "C",
+		"dex": "B+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Argent Wolf Blade": {
+		"base": "145",
+		"str": "C",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Crimson Longsword": {
+		"base": "131",
+		"str": "C",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Queenslayer Halberd": {
+		"base": "215",
+		"str": "C",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Cerulean Spear": {
+		"base": "208",
+		"str": "C",
+		"dex": "D+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Lost Bardiche": {
+		"base": "200",
+		"str": "C",
+		"dex": "D+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Sunset Sword": {
+		"base": "137",
+		"str": "C",
+		"dex": "D+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Executioner": {
+		"base": "105",
+		"str": "C+",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Nagimukuro": {
+		"base": "215",
+		"str": "C+",
+		"dex": "B",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Iceblood": {
+		"base": "92",
+		"str": "C+",
+		"dex": "B+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "50",
+		"lightning": "0"
+	},
+	"Broadsword": {
+		"base": "155",
+		"str": "C+",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Hellfire Pipe": {
+		"base": "30",
+		"str": "C+",
+		"dex": "C",
+		"blood": "0",
+		"fire": "50",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Hoarfrost Pipe": {
+		"base": "30",
+		"str": "C+",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "50",
+		"lightning": "0"
+	},
+	"Pipe of Thralldom": {
+		"base": "30",
+		"str": "C+",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Queenslayer Blade": {
+		"base": "125",
+		"str": "C+",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Thunderbolt Pipe": {
+		"base": "30",
+		"str": "C+",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "50"
+	},
+	"Bardiche": {
+		"base": "185",
+		"str": "C+",
+		"dex": "C+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Lost Broadsword": {
+		"base": "169",
+		"str": "C+",
+		"dex": "D",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Lost Zweihander": {
+		"base": "290",
+		"str": "C+",
+		"dex": "D",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Sunset Great Sword": {
+		"base": "265",
+		"str": "C+",
+		"dex": "D",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Sunset Hammer": {
+		"base": "270",
+		"str": "C+",
+		"dex": "D+",
+		"blood": "40",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Impulse Anchor": {
+		"base": "270",
+		"str": "C+",
+		"dex": "E+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Black Halberd": {
+		"base": "174",
+		"str": "D",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Impaler": {
+		"base": "192",
+		"str": "D+",
+		"dex": "B",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Sunset Halberd": {
+		"base": "228",
+		"str": "D+",
+		"dex": "C",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Lightning Brionac": {
+		"base": "102",
+		"str": "D+",
+		"dex": "D+",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	},
+	"Argend Wolf Poleaxe": {
+		"base": "212",
+		"str": "E",
+		"dex": "A",
+		"blood": "0",
+		"fire": "0",
+		"ice": "0",
+		"lightning": "0"
+	}
+}

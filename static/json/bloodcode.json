@@ -1,0 +1,338 @@
+{
+	"Achilles": {
+		"strength": "D+",
+		"dexterity": "S+",
+		"mind": "D+",
+		"willpower": "D",
+		"vitality": "D",
+		"fortitude": "S+"
+	},
+	"Artemis": {
+		"strength": "D",
+		"dexterity": "B+",
+		"mind": "C+",
+		"willpower": "A",
+		"vitality": "C+",
+		"fortitude": "B"
+	},
+	"Asclepius": {
+		"strength": "C",
+		"dexterity": "C",
+		"mind": "C",
+		"willpower": "D+",
+		"vitality": "S+",
+		"fortitude": "S+"
+	},
+	"Assassin": {
+		"strength": "C+",
+		"dexterity": "B+",
+		"mind": "D+",
+		"willpower": "C+",
+		"vitality": "C",
+		"fortitude": "B+"
+	},
+	"Astrea": {
+		"strength": "C",
+		"dexterity": "C+",
+		"mind": "B",
+		"willpower": "B",
+		"vitality": "D+",
+		"fortitude": "C"
+	},
+	"Atlas": {
+		"strength": "A+",
+		"dexterity": "D+",
+		"mind": "D+",
+		"willpower": "C",
+		"vitality": "A+",
+		"fortitude": "C+"
+	},
+	"Berserker": {
+		"strength": "A",
+		"dexterity": "D",
+		"mind": "D+",
+		"willpower": "D+",
+		"vitality": "B+",
+		"fortitude": "B+"
+	},
+	"Caster": {
+		"strength": "D+",
+		"dexterity": "C",
+		"mind": "B",
+		"willpower": "B+",
+		"vitality": "E+",
+		"fortitude": "E+"
+	},
+	"Dark Knight": {
+		"strength": "A",
+		"dexterity": "B",
+		"mind": "C",
+		"willpower": "C",
+		"vitality": "C+",
+		"fortitude": "D+"
+	},
+	"Darkseeker": {
+		"strength": "D+",
+		"dexterity": "B",
+		"mind": "B+",
+		"willpower": "B+",
+		"vitality": "D",
+		"fortitude": "D"
+	},
+	"Demeter": {
+		"strength": "A",
+		"dexterity": "D+",
+		"mind": "A",
+		"willpower": "C+",
+		"vitality": "B+",
+		"fortitude": "E+"
+	},
+	"Eos": {
+		"strength": "B",
+		"dexterity": "C",
+		"mind": "A+",
+		"willpower": "C+",
+		"vitality": "A",
+		"fortitude": "C"
+	},
+	"Fighter": {
+		"strength": "B+",
+		"dexterity": "B",
+		"mind": "C",
+		"willpower": "D+",
+		"vitality": "D",
+		"fortitude": "D"
+	},
+	"Fionn": {
+		"strength": "A",
+		"dexterity": "C",
+		"mind": "B",
+		"willpower": "D+",
+		"vitality": "B",
+		"fortitude": "C+"
+	},
+	"Hades": {
+		"strength": "A+",
+		"dexterity": "B",
+		"mind": "C",
+		"willpower": "C",
+		"vitality": "C+",
+		"fortitude": "B"
+	},
+	"Harbinger": {
+		"strength": "C+",
+		"dexterity": "C",
+		"mind": "D+",
+		"willpower": "C",
+		"vitality": "A",
+		"fortitude": "B+"
+	},
+	"Harmonia": {
+		"strength": "D",
+		"dexterity": "C",
+		"mind": "B",
+		"willpower": "A+",
+		"vitality": "C",
+		"fortitude": "C"
+	},
+	"Heimdall": {
+		"strength": "C+",
+		"dexterity": "A+",
+		"mind": "C+",
+		"willpower": "C+",
+		"vitality": "C",
+		"fortitude": "A+"
+	},
+	"Hephaestus": {
+		"strength": "C",
+		"dexterity": "A",
+		"mind": "C",
+		"willpower": "B+",
+		"vitality": "B",
+		"fortitude": "C+"
+	},
+	"Hermes": {
+		"strength": "B",
+		"dexterity": "C",
+		"mind": "B+",
+		"willpower": "C",
+		"vitality": "C+",
+		"fortitude": "C+"
+	},
+	"Hunter": {
+		"strength": "C",
+		"dexterity": "B",
+		"mind": "C+",
+		"willpower": "B+",
+		"vitality": "C+",
+		"fortitude": "C"
+	},
+	"Ishtar": {
+		"strength": "B+",
+		"dexterity": "C",
+		"mind": "A",
+		"willpower": "B",
+		"vitality": "C",
+		"fortitude": "A+"
+	},
+	"Isis": {
+		"strength": "C",
+		"dexterity": "B",
+		"mind": "B+",
+		"willpower": "B+",
+		"vitality": "C+",
+		"fortitude": "C+"
+	},
+	"Mercury": {
+		"strength": "B",
+		"dexterity": "B+",
+		"mind": "C+",
+		"willpower": "C+",
+		"vitality": "C",
+		"fortitude": "C+"
+	},
+	"Orion": {
+		"strength": "D",
+		"dexterity": "S+",
+		"mind": "D+",
+		"willpower": "S+",
+		"vitality": "D",
+		"fortitude": "D+"
+	},
+	"Perseus": {
+		"strength": "D",
+		"dexterity": "D+",
+		"mind": "S+",
+		"willpower": "S+",
+		"vitality": "D+",
+		"fortitude": "D"
+	},
+	"Pollux": {
+		"strength": "S+",
+		"dexterity": "D",
+		"mind": "D+",
+		"willpower": "D+",
+		"vitality": "S+",
+		"fortitude": "D"
+	},
+	"Prometheus": {
+		"strength": "B+",
+		"dexterity": "B+",
+		"mind": "C+",
+		"willpower": "C+",
+		"vitality": "C+",
+		"fortitude": "A"
+	},
+	"Queen": {
+		"strength": "C+",
+		"dexterity": "C",
+		"mind": "A",
+		"willpower": "A",
+		"vitality": "C+",
+		"fortitude": "C"
+	},
+	"Queen's Breath": {
+		"strength": "A",
+		"dexterity": "D+",
+		"mind": "A",
+		"willpower": "D+",
+		"vitality": "C+",
+		"fortitude": "D+"
+	},
+	"Queen's Claw": {
+		"strength": "B+",
+		"dexterity": "A",
+		"mind": "C+",
+		"willpower": "B+",
+		"vitality": "E+",
+		"fortitude": "C"
+	},
+	"Queen's Ribcage": {
+		"strength": "D+",
+		"dexterity": "C+",
+		"mind": "B+",
+		"willpower": "A",
+		"vitality": "E+",
+		"fortitude": "D"
+	},
+	"Queen's Throat": {
+		"strength": "D",
+		"dexterity": "D",
+		"mind": "A+",
+		"willpower": "A",
+		"vitality": "D",
+		"fortitude": "D+"
+	},
+	"Queenslayer": {
+		"strength": "B+",
+		"dexterity": "A",
+		"mind": "B",
+		"willpower": "C+",
+		"vitality": "C+",
+		"fortitude": "C"
+	},
+	"Ranger": {
+		"strength": "C",
+		"dexterity": "B+",
+		"mind": "D+",
+		"willpower": "C",
+		"vitality": "D",
+		"fortitude": "C"
+	},
+	"Scathach": {
+		"strength": "C+",
+		"dexterity": "B+",
+		"mind": "B",
+		"willpower": "B",
+		"vitality": "C",
+		"fortitude": "B"
+	},
+	"Scout": {
+		"strength": "C+",
+		"dexterity": "A",
+		"mind": "B",
+		"willpower": "C+",
+		"vitality": "C+",
+		"fortitude": "C"
+	},
+	"Surt": {
+		"strength": "S",
+		"dexterity": "C",
+		"mind": "C+",
+		"willpower": "C+",
+		"vitality": "D",
+		"fortitude": "S"
+	},
+	"Survivor": {
+		"strength": "C",
+		"dexterity": "A",
+		"mind": "C+",
+		"willpower": "D+",
+		"vitality": "C",
+		"fortitude": "B"
+	},
+	"Vali": {
+		"strength": "D",
+		"dexterity": "S",
+		"mind": "S",
+		"willpower": "C+",
+		"vitality": "C+",
+		"fortitude": "C"
+	},
+	"Warrior": {
+		"strength": "A+",
+		"dexterity": "C+",
+		"mind": "C",
+		"willpower": "B",
+		"vitality": "B",
+		"fortitude": "E+"
+	},
+	"Ymir": {
+		"strength": "C+",
+		"dexterity": "D",
+		"mind": "C",
+		"willpower": "S",
+		"vitality": "S",
+		"fortitude": "C+"
+	}
+}
