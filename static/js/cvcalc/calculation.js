@@ -31,7 +31,7 @@ $.getJSON("static/json/weapon.json", function(data) {
 });
 
 function stat_factor(stat) {
-	return Math.pow(letterReference[stat], 2);
+	return Math.pow(letterReference[stat], 2)/100;
 }
 
 function stat_scaling(stat) {
