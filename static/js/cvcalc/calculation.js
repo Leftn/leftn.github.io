@@ -63,7 +63,7 @@ function hp_stat_factor(stat) {
 	return letterReference[stat]/12;
 }
 
-function hp(l) {
+function hp_multiplier(l) {
 	return 5 * (l/(l+100/(hp_stat_factor(bloodCodeData[bloodCode].strength ) * 0.25 + hp_stat_factor(bloodCodeData[bloodCode].vitality))));
 }
 
@@ -71,7 +71,7 @@ function updateCalc() {
 	let base = weaponData[weapon].base * (1 + (0.1 * reinforcement));
 	let hp = 2000/3;
 	base = Math.floor(base * multiplier(level));
-	hp = hp * (1 + hp(level));
+	hp = hp * (1 + hp_multiplier(level));
 	$("#hpOutput").html(hp);
 	$("#damageOutput").html(base);
 }
