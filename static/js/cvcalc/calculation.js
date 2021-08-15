@@ -39,15 +39,15 @@ function stat_scaling(stat) {
 }
 
 function dex_factor(level) {
-	stat_factor(weaponData[weapon].dexterity) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].dexterity)));
+	stat_factor(weaponData[weapon].dex) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].dexterity)));
 }
 
 function str_factor(level) {
-	stat_factor(weaponData[weapon].strength) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].strength)));
+	stat_factor(weaponData[weapon].str) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].strength)));
 }
 
 function multiplier(level) {
-	return str_factor(level) + dex_factor(level) + (stat_scaling[weaponData[weapon].dexterity] * stat_scaling[bloodCodeData[bloodCode].dexterity]) + (stat_scaling[weaponData[weapon].strength] * stat_scaling[bloodCodeData[bloodCode].strength]);
+	return str_factor(level) + dex_factor(level) + (stat_scaling[weaponData[weapon].dex] * stat_scaling[bloodCodeData[bloodCode].dexterity]) + (stat_scaling[weaponData[weapon].str] * stat_scaling[bloodCodeData[bloodCode].strength]);
 }
 
 function updateCalc() {
