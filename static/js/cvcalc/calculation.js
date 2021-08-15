@@ -71,7 +71,7 @@ function updateCalc() {
 	let base = weaponData[weapon].base * (1 + (0.1 * reinforcement));
 	let hp = 2000/3;
 	base = Math.floor(base * multiplier(level));
-	hp = hp * (1 + hp(l));
+	hp = hp * (1 + hp(level));
 	$("#hpOutput").html(hp);
 	$("#damageOutput").html(base);
 }
