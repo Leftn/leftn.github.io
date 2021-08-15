@@ -30,6 +30,15 @@ $.getJSON("static/json/weapon.json", function(data) {
 	weaponData = data;
 });
 
+$("#hpOutput").on("ready", function(e) {
+	updateCalc();
+});
+
+$("#damageOutput").on("ready", function(e) {
+	updateCalc();
+});
+
+
 function stat_factor(stat) {
 	return Math.pow(letterReference[stat], 2)/100;
 }
@@ -55,7 +64,7 @@ function hp_stat_factor(stat) {
 }
 
 function hp(l) {
-	return 5 * (l/(l+100/(hp_stat_factor(bloodCodeData[bloodCode].strength ) * 0.25 + hp_stat_factor(bloodCodeData[bloodCode].vitality));
+	return 5 * (l/(l+100/(hp_stat_factor(bloodCodeData[bloodCode].strength ) * 0.25 + hp_stat_factor(bloodCodeData[bloodCode].vitality))));
 }
 
 function updateCalc() {
