@@ -1,7 +1,7 @@
 var bloodCode = "Achilles";
 var weapon = "Bayonet";
-var level = "";
-var reinforcement = "";
+var level = "1";
+var reinforcement = "0";
 
 var weaponData;
 var bloodCodeData;
@@ -53,5 +53,6 @@ function multiplier(level) {
 function updateCalc() {
 	let base = weaponData[weapon].base * (1 + (0.1 * reinforcement));
 	base = base * multiplier(level);
+	
 	$("#damageOutput").html(base);
 }
