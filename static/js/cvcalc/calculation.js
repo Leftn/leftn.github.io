@@ -22,8 +22,6 @@ var letterReference = {
 	"-":0
 };
 
-
-
 $.getJSON("static/json/bloodcode.json", function(data) {
 	bloodCodeData = data;
 });
