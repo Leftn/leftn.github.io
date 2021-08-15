@@ -39,11 +39,11 @@ function stat_scaling(stat) {
 }
 
 function dex_factor(level) {
-	stat_factor(weaponData[weapon].dex) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].dexterity)));
+	return stat_factor(weaponData[weapon].dex) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].dexterity)));
 }
 
 function str_factor(level) {
-	stat_factor(weaponData[weapon].str) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].strength)));
+	return stat_factor(weaponData[weapon].str) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].strength)));
 }
 
 function multiplier(level) {
