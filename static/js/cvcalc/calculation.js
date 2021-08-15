@@ -53,7 +53,7 @@ function multiplier(l) {
 function updateCalc() {
 	let l = parseInt(level);
 	let base = weaponData[weapon].base * (1 + (0.1 * reinforcement));
-	base = base * multiplier(l);
+	base = Math.floor(base * multiplier(l));
 	
 	$("#damageOutput").html(base);
 }
