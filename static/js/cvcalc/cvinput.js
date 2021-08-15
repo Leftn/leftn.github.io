@@ -1,5 +1,6 @@
 document.getElementById("weaponReinforcement").addEventListener("change", function(e) {
 	$("#reinforcementFeedback").val("+"+e.target.value);
+	reinforcement = parseInt(e.target.value);
 	updateCalc();
 });
 
@@ -17,6 +18,6 @@ document.getElementById("bloodCodeSelect").addEventListener("change", function(e
 
 //levelInput
 document.getElementById("levelInput").addEventListener("change", function(e) {
-	level = e.target.value;
+	level = parseInt(e.target.value);
 	updateCalc();
 });
