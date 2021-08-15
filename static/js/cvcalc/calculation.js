@@ -38,21 +38,22 @@ function stat_scaling(stat) {
 	return (Math.pow(letterReference[stat], 2/(100*Math.sqrt(5))));
 }
 
-function dex_factor(level) {
-	return stat_factor(weaponData[weapon].dex) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].dexterity)));
+function dex_factor(l) {
+	return stat_factor(weaponData[weapon].dex) * (Math.pow(l, 2) / (Math.pow(l, 2) + 10000/stat_factor(bloodCodeData[bloodCode].dexterity)));
 }
 
-function str_factor(level) {
-	return stat_factor(weaponData[weapon].str) * (Math.pow(level, 2) / (Math.pow(level, 2) + 10000/stat_factor(bloodCodeData[bloodCode].strength)));
+function str_factor(l) {
+	return stat_factor(weaponData[weapon].str) * (Math.pow(l, 2) / (Math.pow(l, 2) + 10000/stat_factor(bloodCodeData[bloodCode].strength)));
 }
 
-function multiplier(level) {
-	return str_factor(level) + dex_factor(level) + (stat_scaling([weaponData[weapon].dex]) * stat_scaling(bloodCodeData[bloodCode].dexterity)) + (stat_scaling(weaponData[weapon].str) * stat_scaling(bloodCodeData[bloodCode].strength));
+function multiplier(l) {
+	return str_factor(l) + dex_factor(l) + (stat_scaling([weaponData[weapon].dex]) * stat_scaling(bloodCodeData[bloodCode].dexterity)) + (stat_scaling(weaponData[weapon].str) * stat_scaling(bloodCodeData[bloodCode].strength));
 }
 
 function updateCalc() {
+	let l = parseInt(level);
 	let base = weaponData[weapon].base * (1 + (0.1 * reinforcement));
-	base = base * multiplier(level);
+	base = base * multiplier(l);
 	
 	$("#damageOutput").html(base);
 }
