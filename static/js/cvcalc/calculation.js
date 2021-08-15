@@ -30,11 +30,7 @@ $.getJSON("static/json/weapon.json", function(data) {
 	weaponData = data;
 });
 
-$("#hpOutput").on("ready", function(e) {
-	updateCalc();
-});
-
-$("#damageOutput").on("ready", function(e) {
+$("document").on("ready", function(e) {
 	updateCalc();
 });
 
@@ -71,7 +67,7 @@ function updateCalc() {
 	let base = weaponData[weapon].base * (1 + (0.1 * reinforcement));
 	let hp = 2000/3;
 	base = Math.floor(base * multiplier(level));
-	hp = hp * (1 + hp_multiplier(level));
+	hp = Math.ceil(hp * (1 + hp_multiplier(level)));
 	$("#hpOutput").html(hp);
 	$("#damageOutput").html(base);
 }
