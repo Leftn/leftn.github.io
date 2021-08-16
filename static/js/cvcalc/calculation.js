@@ -106,7 +106,7 @@ function flat_stamina_fortitude(L) {
 }
 
 function stam_multiplier(l) {
-	return 100 * ((5/3 * l / (l + 100/((letterReference[bloodCodeData[bloodCode].mind]/15)/4 + letterReference[bloodCodeData[bloodCode].fortitude]/15))) + 1) + (1/4 * flat_stamina_mind(bc_mnd)+ flat_stamina_fortitude(bc_fort));
+	return 100 * ((5/3 * l / (l + 100/((letterReference[bloodCodeData[bloodCode].mind]/15)/4 + letterReference[bloodCodeData[bloodCode].fortitude]/15))) + 1) + (1/4 * flat_stamina_mind(letterReference[bloodCodeData[bloodCode].mind])+ flat_stamina_fortitude(letterReference[bloodCodeData[bloodCode].fortitude]));
 }
 
 function updateCalc() {
