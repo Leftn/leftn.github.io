@@ -92,7 +92,7 @@ function flat_stamina_mind(L) {
 	} else {
 		n_mnd = mndUp/parseInt(level)
 	}
-	return (3(L + n_mnd) - 40/3)
+	return (3 * (L + n_mnd) - 40/3)
 }
 
 function flat_stamina_fortitude(L) {
@@ -102,7 +102,7 @@ function flat_stamina_fortitude(L) {
 	} else {
 		n_fort = fortUp/parseInt(level)
 	}
-	return (3(L + n_fort) - 40/3)
+	return (3 * (L + n_fort) - 40/3)
 }
 
 function stam_multiplier(l) {
