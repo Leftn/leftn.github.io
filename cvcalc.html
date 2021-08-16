@@ -145,6 +145,18 @@
 		</select>
 		</div>
 		<div class="input-group mb-3">
+			<span class="input-group-text">Strength Up</span>
+			<input id="StrUp" type="number" class="form-control" placeholder="0" value="0" aria-label="Strength Up" max="4" min="0">
+			<span class="input-group-text">Dexterity Up</span>
+			<input id="DexUp" type="number" class="form-control" placeholder="0" aria-label="Dexterity Up" max="4" min="0">
+			<span class="input-group-text">Mind Up</span>
+			<input id="MndUp" type="number" class="form-control" placeholder="0" aria-label="Mind Up" max="4" min="0">
+			<span class="input-group-text">Fortitude Up</span>
+			<input id="FortUp" type="number" class="form-control" placeholder="" aria-label="Fortitude Up" max="4" min="0">
+			<span class="input-group-text">Vitality Up</span>
+			<input id="VitUp" type="number" class="form-control" placeholder="0" aria-label="Vitality Up" max="4" min="0">
+		</div
+		<div class="input-group mb-3">
 			<label for="weaponReinforcement">
 				Weapon Reinforcement
 				<input class="form-control" id="reinforcementFeedback" type="text" placeholder="+0" readonly>
@@ -153,8 +165,9 @@
 		</div>
     </div>
 	<div class="container bg-secondary text-light p-3">
-		<h4>HP:</h4> <label id="hpOutput">684</label>
 		<h4>Physical Damage: </h4> <label id="damageOutput">596</label>
+		<h4>HP:</h4> <label id="hpOutput">684</label>
+		<h4>Stamina: </h4> <label id="stamOutput">118</label>
 	</div>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
