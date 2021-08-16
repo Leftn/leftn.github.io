@@ -82,7 +82,7 @@ function hp_multiplier(l) {
 		n_vit = vitUp/level;
 		n_str = strUp/level;
 	}
-	return 5 * (l/(l+100/((letterReference[bloodCodeData[bloodCode].strength] + n_str)/12 * 0.25 + ((letterReference[bloodCodeData[bloodCode].vitality] + n_vit)/12)));
+	return 5 * (l/(l+100/((letterReference[bloodCodeData[bloodCode].strength] + n_str)/12 * 0.25 + ((letterReference[bloodCodeData[bloodCode].vitality] + n_vit)/12))));
 }
 
 function flat_stamina_mind(L) {
